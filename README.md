@@ -108,7 +108,7 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [canvas-design](./canvas-design) - Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters and static pieces.
 - [senior-frontend](./senior-frontend) - React/Next.js/TypeScript development patterns with bundle analysis, component generation, and accessibility best practices.
 - [frontend-developer](./frontend-developer) - Frontend development specialist agent for building modern web interfaces.
-- [ui-ux-suite](https://github.com/Aboudjem/ui-ux-suite) - Design audit that scores UI/UX across 12 dimensions (color contrast, typography, layout, accessibility) grounded in 24 named UX laws with citations. Scans CSS, JSX, and Tailwind configs. WCAG 2.2, APCA, OKLCH. Zero dependencies.
+- [ui-ux-suite](https://github.com/Aboudjem/ui-ux-suite) - Design audit of a project's color, typography, accessibility, and layout. Every finding names the file, the line, the measured wrong value, and the fix, with a weighted 0-10 score across 12 dimensions. Zero dependencies.
 
 ### Git & Version Control
 
@@ -162,7 +162,9 @@ Claude Plugins are extensions that enhance Claude Code with custom slash command
 - [agntk](https://github.com/Phoenixrr2113/agntk) - Zero-config AI agent CLI with persistent named agents, 20+ built-in tools, and hardware-aware local model selection.
 - [backlog](https://github.com/backloghq/backlog) - Persistent, cross-session task management. 24 MCP tools for tasks, projects, tags, dependencies, and docs. 7 skills for planning, standups, and handoffs. Event-sourced storage, agent coordination, pure TypeScript. ([Website](https://backloghq.io))
 - [goalify](https://github.com/Aboudjem/goalify) - Scopes a big coding task, locks the few real decisions, and writes a self-contained goal file so a fresh session executes the whole job and verifies every success criterion before calling it done.
-- [humanizer](https://github.com/Aboudjem/humanizer-skill) - Detects 43 AI-writing patterns and rewrites text with burstiness, five voice profiles, and a 0-100 AI-tell score. Pure Markdown, zero dependencies, no network calls.
+- [humanizer](https://github.com/Aboudjem/humanizer-skill) - Detects 55 AI-writing patterns and rewrites text with burstiness, five voice profiles, and a 0-100 AI-tell score. Pure Markdown, zero dependencies, no network calls.
+- [loopify](https://github.com/Aboudjem/loopify) - Writes a standing brief and one /loop line for a job that repeats, so each tick re-reads the brief, does one round, and logs what happened.
+- [10x](https://github.com/Aboudjem/10x) - A Claude Code plugin marketplace with 7 plugins: QA on a running app, design audit, offline explainers, AWS cost review, and briefs for /goal and /loop.
 
 ### Companion & Personality
 
